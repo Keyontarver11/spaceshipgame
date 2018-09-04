@@ -1,0 +1,24 @@
+body{
+  margin:0;
+  background: url('./images/galaxy.jpg') 0 0 repeat-x;
+  width:100vw;
+  height:100vh;
+  background-size: 5100px 100%;
+  animation: galaxy 20s linear infinite;
+}
+
+#root{
+  width:100%;
+  height:100%;
+  position:fixed;
+}
+
+@keyframes galaxy{
+  from{
+    background-position: 0 0;
+  }
+
+  to{
+    background-position: -5100px 0;
+  }
+}
